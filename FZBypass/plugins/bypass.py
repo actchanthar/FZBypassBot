@@ -31,8 +31,8 @@ async def start_msg(client, message):
                 [
                     InlineKeyboardButton("🎓 Dev", url="https://t.me/When_the_night_falls_my_soul_sea"),
                     InlineKeyboardButton(
-                        "Channel",
-                        url="https://github.com/actanimemm",
+                        "🎀 Channel",
+                        url="https://t.me/actanimemm",
                     ),
                 ]
             ]
