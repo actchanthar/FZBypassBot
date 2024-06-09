@@ -18,21 +18,21 @@ from FZBypass.core.bot_utils import AuthChatsTopics, convert_time, BypassFilter
 @Bypass.on_message(command("start"))
 async def start_msg(client, message):
     await message.reply(
-        f"""<b><i>FZ Bypass Bot!</i></b>
+        f"""<b><i>ACT ADS Bypass Bot!</i></b>
     
-    <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
+    <i>Python မှာရေးထားတဲ့ အားကောင်းလှတဲ့ Multi Threaded Bot... အမျိုးမျိုးသော Shortener Links၊ Scrape links နှင့် အခြားအရာများကို ကျော်လွှားနိုင်သည်... </i>
     
-    <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
+    <i><b>Bot ကို လွန်ခဲ့သော  {convert_time(time() - BOT_START)}  တွင် စတင်ခဲ့သည်...</b></i>
 
-🛃 <b>Use Me Here :</b> @CyberPunkGrp <i>(Bypass Topic)</i>""",
+🛃 <b>သုံးချင်ရင် ဒီမှာလာဆက်သွယ်ပါ။ :</b> @actanibot <i>(Bypass Topic)</i>""",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎓 Dev", url="https://t.me/SilentDemonSD"),
+                    InlineKeyboardButton("🎓 Dev", url="https://t.me/When_the_night_falls_my_soul_sea"),
                     InlineKeyboardButton(
-                        "🔍 Deploy Own",
-                        url="https://github.com/SilentDemonSD/FZBypassBot",
+                        "Channel",
+                        url="https://github.com/actanimemm",
                     ),
                 ]
             ]
