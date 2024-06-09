@@ -145,7 +145,7 @@ async def inline_query(client, query):
             answers.append(InlineQueryResultArticle(
                 title="❌️ Bypass Link Error !",
                 input_message_content=InputTextMessageContent(
-                    f'┎ <b>Source Link:</b> {link}\n┃\n┖ {bp_link}\n\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n\n🧭 <b>Took Only <code>{convert_time(end - start)}</code></b>',
+                    f'┎ <b>Source Link:</b> {link}\n┃\n┖ {bp_link}\n\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏\n\n🧭 <b> <code>{convert_time(end - start)} သာကြာသည်၊၊ </code></b>',
                     disable_web_page_preview=True,
                 ),
                 description=f"Bypass via !bp {link}",
@@ -160,7 +160,7 @@ async def inline_query(client, query):
                 input_message_content=InputTextMessageContent(
                     '''<b><i>ACT Bypass bot!</i></b>
     
-    <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
+    <i>Python မှာရေးထားတဲ့ အားကောင်းလှတဲ့ Multi Threaded Bot... အမျိုးမျိုးသော Shortener Links၊ Scrape links နှင့် အခြားအရာများကို ကျော်လွှားနိုင်သည်...  </i>
     
 🎛 <b>Inline Use :</b> !bp [Single Link]''',
                 ),
